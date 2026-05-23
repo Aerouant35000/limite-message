@@ -3,13 +3,23 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "discord.js": "^14.26.4"
-  }
+    "discord.js": "^14.26.4",
+    "dotenv": "^17.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aerouant35000/limite-message.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aerouant35000/limite-message/issues"
+  },
+  "homepage": "https://github.com/Aerouant35000/limite-message#readme",
+  "description": ""
 }
