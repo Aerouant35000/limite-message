@@ -126,3 +126,5 @@ client.on("messageCreate", async (message) => {
 // IMPORTANT : remplace par ton token Discord (SECRET !)
 require('dotenv').config();
 const token = process.env.TOKEN;
+
+client.login(token);
